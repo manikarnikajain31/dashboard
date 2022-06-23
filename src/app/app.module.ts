@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 //import { NgxWebstorageModule } from 'ngx-webstorage';
 //import { AuthGuardService } from './auth-guard.service';
 import { ChildComponent } from './child/child.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { ChildComponent } from './child/child.component';
     BrowserAnimationsModule,
     DefaultModule,
     FormsModule,
+    HttpClientModule
   ],
   // providers: [AuthGuardService],
   bootstrap: [AppComponent]

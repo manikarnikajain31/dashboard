@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users":[
+    {
+      "id": 1,
+      "name":"Sam",
+      "email":"sam@gmail.com",
+      "Place":"Asia",
+      "target":50
+    },
+    {
+      "id": 2,
+      "name":"Robin",
+      "email":"robin@gmail.com",
+      "address":"Africa",
+      "target":40
+    },
+    {
+      "id": 3,
+      "name":"Tom",
+      "email":"tom@gmail.com",
+      "address":"America",
+      "target":30
+    },
+    {
+      "id": 4,
+      "name":"Stella",
+      "email":"stella@gmail.com",
+      "address":"Europe",
+      "target":20
+    }
+  ]
+}
